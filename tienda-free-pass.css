@@ -93,6 +93,18 @@ h1{
     margin-top: -125px;
 }
 
+.celularr{
+    font-size: 100px;
+    float: right;    
+    margin-right: 570px;
+    margin-left: 60px; 
+}
+
+.instaa{
+    font-size: 100px;
+    float: right;   
+}
+
 .perfil{
     font-size: 30px;
 }
