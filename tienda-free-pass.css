@@ -45,6 +45,7 @@ html{
     align-items: center;
 }
 
+
 .descripcion-img-izq{
     float: left;
     margin-left: 25px;
@@ -165,6 +166,14 @@ li a.active, li a:hover{
 
 
 @media (max-width: 1200px) {
+    .descripcion-img-izq{
+        float: left;
+        margin-left: 25px;
+        margin-top: 40px;
+        margin-right: 25px;
+        text-align: justify;
+    }
+    
     .celularr{
         font-size: 100px;
         float: right;    
