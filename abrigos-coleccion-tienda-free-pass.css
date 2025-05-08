@@ -160,8 +160,8 @@ li a.active, li a:hover{
 
 @media (max-width: 1200px) {
 
-    .tabla-referencias{
-        margin-left: 365px;
+    .numeros{
+        display: contents;
     }
 
     .accesorios, .coleccion{
@@ -312,10 +312,5 @@ li a.active, li a:hover{
 
 button{
     font-size: 22px;
-}
-
-.tabla-referencia{
-    margin-top: 27px;
-    margin-left: 500px;
 }
 
