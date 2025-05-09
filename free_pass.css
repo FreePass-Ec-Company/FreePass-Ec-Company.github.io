@@ -176,6 +176,23 @@ footer{
 
 @media (max-width: 1200px) {
 
+   h1 {
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    .reseña{
+        font-size: 55px;
+    }
+
+    .reseña-1{
+        font-size: 30px;
+    }
+
+
     .carrito{
         float: left;
         margin-left: 50px;
@@ -223,12 +240,17 @@ footer{
         left: -100%;
         text-align: center;
         transition: all .5s;
+        
     }
 
     .menu {
         flex-direction: column;
         align-items: center;
         margin-left: 0px;
+    }
+
+    .menus{
+        margin-top: 175px;
     }
 
     nav ul li{
@@ -238,7 +260,7 @@ footer{
     }
 
     nav ul li a{
-        font-size: 50px;
+        font-size: 70px;
     }
 
     li a:hover, li a.active{
@@ -352,7 +374,7 @@ footer{
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px;
+        font-size: 54px;
     }
 
     p {
