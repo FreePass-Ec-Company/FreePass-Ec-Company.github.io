@@ -56,7 +56,7 @@ html{
 }
 
 .numeros{
-    padding-left: 500px;
+    padding-left: 150px;
 }
 
 .resultadoos{
@@ -117,7 +117,7 @@ p{
 
 nav ul{
     float: left;
-    margin-left: 50px;
+    margin-left: 12px;
 }
 
 nav ul li{
@@ -152,16 +152,29 @@ li a.active, li a:hover{
     display: none;
 }
 
-.tabla-referencias{
-    margin-left: 500px;
-}
-
 
 
 @media (max-width: 1200px) {
+    .coleccion{
+        font-size: 45px;
+    }
+
+    h3{
+        font-size: 50px;
+    }
+
+    .tiendaa{
+        font-size: 65px;
+    }
+
+    .resultadoos{
+        font-size: 27px;
+        margin-right: -50px;
+    }
 
     .numeros{
         display: contents;
+        padding-top: 40px;
     }
 
     .accesorios, .coleccion{
@@ -195,6 +208,10 @@ li a.active, li a:hover{
         display: block;
     }
 
+    .checkbtn{
+        display: block;
+    }
+
     ul{
         position: fixed;
         width: 100%;
@@ -212,6 +229,10 @@ li a.active, li a:hover{
         margin-left: 0px;
     }
 
+    .menus{
+        margin-top: 175px;
+    }
+
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -219,8 +240,10 @@ li a.active, li a:hover{
     }
 
     nav ul li a{
-        font-size: 20px;
+        font-size: 76px;
     }
+
+
 
     li a:hover, li a.active{
         background-color: none;
@@ -230,6 +253,7 @@ li a.active, li a:hover{
     #check:checked ~ ul{
         left: 0;
     }
+
 
     .logo {
         margin: 0px auto 0 auto;
@@ -313,4 +337,5 @@ li a.active, li a:hover{
 button{
     font-size: 22px;
 }
+
 
