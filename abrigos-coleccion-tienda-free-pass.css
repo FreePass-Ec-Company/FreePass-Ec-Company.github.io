@@ -338,4 +338,150 @@ button{
     font-size: 22px;
 }
 
+.carrito-producto-titulo{
+    color: rgb(0, 0, 0);
+}
+
+.carrito-producto-precio{
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.fa-bag-shopping{
+    color: black;
+}
+
+.carrito-total{
+    color: rgb(0, 0, 0);
+}
+
+.carrito{
+    border: 1px solid #666;
+    width: 28%;
+    margin-left: 485px;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+    position: relative;
+    top: 0;
+    transition: .3s;
+    margin-right: 60%;
+}
+
+.header-carrito{
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 0;
+    color: rgb(255, 255, 255);
+}
+
+.carrito-producto{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #666;
+    padding: 20px;
+}
+
+.carrito-producto img{
+    margin-right: 20px;
+}
+
+.carrito .carrito-producto .carrito-producto-titulo{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-left: 55px;
+}
+
+.carrito .carrito-producto .selector-cantidad{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.carrito .carrito-producto .carrito-producto-cantidad{
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.carrito .carrito-producto .selector-cantidad i{
+    font-size: 18px;
+    width: 10px;
+    height: 27px;
+    line-height: 0px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.carrito .carrito-producto .carrito-producto-precio{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.carrito .carrito-producto .btn-eliminar{
+    position: absolute;
+    right: 5px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    line-height: 0px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(1, 1, 1);
+    padding-top: 10px;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    z-index: 20;
+}
+
+.btn-eliminar{
+    margin-top: 35px;
+}
+
+.carrito .carrito-producto .btn-eliminar i{
+    pointer-events: none;
+}
+
+.carrito-total{
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+.carrito-total .btn-pagar{
+    display: block;
+    border: none;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 27px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.carrito-total .btn-pagar:hover{
+    scale: 1.27;
+}
+
+.btn-pagar i{
+    color: white;
+    padding-right: 120px;
+} 
+
+
 
