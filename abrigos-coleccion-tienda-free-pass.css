@@ -73,7 +73,7 @@ h1{
     color: black;
 }
 
-.carrito{
+.carritoo{
     float: right;
     margin-right: 27px;
     margin-top: 30px;
@@ -155,6 +155,15 @@ li a.active, li a:hover{
 
 
 @media (max-width: 1200px) {
+    .carrito{
+        right: 130px;
+    }
+    .opciones {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    
     .coleccion{
         font-size: 45px;
     }
@@ -188,7 +197,7 @@ li a.active, li a:hover{
         align-items: center;
     }
 
-    .carrito{
+    .carritoo{
         float: left;
         margin-left: 50px;
         margin-top: 30px;
@@ -482,6 +491,4 @@ button{
     color: white;
     padding-right: 120px;
 } 
-
-
 
