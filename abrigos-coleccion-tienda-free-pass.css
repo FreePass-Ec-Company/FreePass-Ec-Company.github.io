@@ -364,7 +364,7 @@ button{
     overflow: hidden;
     margin-bottom: auto;
     position: relative;
-    top: 0;
+    top: 27px;
     transition: .3s;
     margin-right: 60%;
 }
