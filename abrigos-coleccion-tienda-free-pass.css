@@ -155,9 +155,90 @@ li a.active, li a:hover{
 
 
 @media (max-width: 1200px) {
+    .carrito-producto-precio{
+        padding-right: 120px;
+    }
+
+    .carrito .carrito-producto .selector-cantidad i{
+        font-size: 27px;
+        width: 10px;
+        height: 27px;
+        margin-left: -250px;
+        margin-right: -100px;
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+    }
+
+    .carrito-producto-cantidad{
+        margin-right: 127px;
+    }
+
+    .btn-pagar i{
+        color: white;
+        padding-left: 10px;
+    } 
+
+    .carrito-total .btn-pagar{
+        margin-left: -100px;
+    }
     
-    .carrito{
-        right: 115px;
+    .carrito {
+        width: 100%;
+        margin: 20px auto;
+        top: 0;
+        right: 100px;
+    }
+
+    .header-carrito {
+        font-size: 27px;
+        padding: 15px 0;
+    }
+
+    .carrito-producto {
+        align-items: flex-start;
+        font-size: 20px;
+        padding: 15px;
+    }
+
+
+    .carrito-producto img {
+        width: 120px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .carrito-producto-titulo {
+        margin-left: -160px;
+        font-size: 22px;
+    }
+
+
+
+    .carrito-producto-cantidad {
+        font-size: 20px;
+        width: 80px;
+    }
+
+    .btn-eliminar {
+        left: 360px;
+        top: 225px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .carrito-producto-precio {
+        font-size: 22px;
+    }
+
+    .btn-pagar {
+        font-size: 30px;
+        padding-left: 150px;
+    }
+
+    .btn-pagar i {
+        padding-right: 120px;
     }
 
     .btn-pagar i{
@@ -176,9 +257,7 @@ li a.active, li a:hover{
         color: rgb(255, 255, 255);
         font-size: 30px;
     }
-
-
-    
+ 
 
     .opciones {
         flex-direction: column;
@@ -517,6 +596,16 @@ button{
     color: white;
     padding-right: 250px;
 } 
+
+.fila{
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+    background-color: white;
+}
+
+
+
+
 
 
 
