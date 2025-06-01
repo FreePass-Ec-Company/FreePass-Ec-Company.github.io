@@ -13,6 +13,9 @@ html{
     height: 100%;
 }
 
+img{
+    border-radius: 27px;
+}
 
 h1{
     color: black;
@@ -394,4 +397,3 @@ footer{
     .origen {
         margin-top: 50px;
     }
-}
