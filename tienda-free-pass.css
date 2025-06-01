@@ -232,11 +232,22 @@ li a.active, li a:hover{
         width: 700px;
     }
 
+    .coleccioon img{
+        width: 600px;
+        height: 820px;
+        margin-left: -90px;
+    }
+
+    .accesorios-tienda img{
+        width: 500px;
+        height: 1000px;
+    }
+
     .accesorios img{
         width: 700px;
     }
 
-     footer img{
+    footer img{
         width: 350px;
     }
 
