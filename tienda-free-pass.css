@@ -21,11 +21,23 @@ html{
 .categorias{
     display: flex;
     margin-top: 75px;
-    margin-left: 100px;
+    margin-left: 75px;
+}
+
+.accesorios-tienda{
+    border-radius: 27px;
+}
+
+.coleccion{
+    border-radius: 27px;
 }
 
 .accesorios{
-    margin-left: 60px;
+    margin-left: 0px;
+}
+
+.accesorios-tienda{
+    margin-left: 31.2px;
 }
 
 .cuadrado{
@@ -213,6 +225,10 @@ li a.active, li a:hover{
     }
 
     .coleccion{
+        margin-right: -60px;
+    }
+
+    .accesorios{
         margin-right: -60px;
     }
 
