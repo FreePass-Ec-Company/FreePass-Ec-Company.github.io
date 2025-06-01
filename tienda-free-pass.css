@@ -228,6 +228,14 @@ li a.active, li a:hover{
         margin-right: -60px;
     }
 
+    .coleccion img{
+        width: 700px;
+    }
+
+    .accesorios img{
+        width: 700px;
+    }
+
     .accesorios{
         margin-right: -60px;
     }
