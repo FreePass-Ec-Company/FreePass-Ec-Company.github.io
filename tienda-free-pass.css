@@ -236,6 +236,10 @@ li a.active, li a:hover{
         width: 700px;
     }
 
+     footer img{
+        width: 350px;
+    }
+
     .accesorios{
         margin-right: -60px;
     }
