@@ -18,14 +18,15 @@ html{
     color: black;
 }
 
+
 .categorias{
     display: flex;
     margin-top: 0px;
-    margin-left: 25px;
+    margin-left: -100px;
 }
 
 .accesorios{
-    margin-left: 60px;
+    margin-right: -70px;
 }
 
 .opcion{
@@ -183,7 +184,7 @@ li a.active, li a:hover{
         margin-left: -100px;
     }
     
-    .carrito {
+    .carrito{
         width: 100%;
         margin: 20px auto;
         top: 0;
@@ -602,6 +603,7 @@ button{
     font-size: 35px;
     background-color: white;
 }
+
 
 
 
