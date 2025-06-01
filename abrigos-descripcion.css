@@ -225,6 +225,14 @@ li a.active, li a:hover{
     .carrito-total .btn-pagar{
         margin-left: -100px;
     }
+
+    .carritoo{
+        float: left;
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 45px;
+        cursor: pointer;
+    }
     
     .carrito {
         width: 100%;
@@ -569,6 +577,11 @@ button{
     font-size: 22px;
 }
 
+.tabla-referencia{
+    margin-top: 27px;
+    margin-left: 500px;
+}
+
 .carrito-producto-titulo{
     color: rgb(0, 0, 0);
 }
@@ -647,8 +660,8 @@ button{
 
 .carrito .carrito-producto .selector-cantidad i{
     font-size: 27px;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 27px;
     line-height: 0px;
     text-align: center;
     border-radius: 50%;
@@ -723,4 +736,6 @@ button{
     font-size: 35px;
     background-color: white;
 }
+
+
 
