@@ -13,6 +13,10 @@ html{
     height: 100%;
 }
 
+.img-producto img{
+    border-radius: 27px;
+}
+
 .coleccion, a{
     text-decoration: none;
     color: black;
@@ -24,6 +28,7 @@ html{
     margin-top: 0px;
     margin-left: -100px;
 }
+
 
 .accesorios{
     margin-right: -70px;
@@ -116,6 +121,15 @@ p{
     padding: 20px 50px;
 }
 
+.precio-producto{
+    float: initial;
+    padding-right: 100px;
+}
+
+.coleccion h3{
+    margin-left: -600px;
+}
+
 nav ul{
     float: left;
     margin-left: 12px;
@@ -156,6 +170,35 @@ li a.active, li a:hover{
 
 
 @media (max-width: 1200px) {
+
+    .img-producto img{
+        width: 600px;
+        height: 820px;
+        border-radius: 27px;
+    }
+
+    footer img{
+        width: 350px;
+    }
+
+    .accesorios img{
+        width: 600px;
+        height: 820px;
+    }
+
+    .opcion h3{
+        font-size: 60px;
+    }
+
+    .tienda{
+        font-size: 85px;
+    }
+
+    .resultados{
+        font-size: 27px;
+    }
+
+
     .carrito-producto-precio{
         padding-right: 120px;
     }
@@ -603,7 +646,6 @@ button{
     font-size: 35px;
     background-color: white;
 }
-
 
 
 
