@@ -13,6 +13,7 @@ p{
     align-items: center;
 }
 
+
 .logo{
     margin-left: 100px;
 }
@@ -84,6 +85,7 @@ html{
     color: black;
     margin-top: -40px;
 }
+
 
 .categorias{
     display: flex;
@@ -736,6 +738,7 @@ button{
     font-size: 35px;
     background-color: white;
 }
+
 
 
 
